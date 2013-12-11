@@ -1,0 +1,172 @@
+html, body {
+ margin: 0px;
+ padding: 0px;
+ border-style: none;
+ }
+
+body {
+ background: #cccccc;
+ }
+
+a {
+ color : #f90;
+ text-decoration:underline;
+ }
+
+a:visited, a:hover {
+ color:#fcc;
+ text-decoration:none;
+ }
+
+#body {
+ width: 700px;
+ height: 390px;
+ background: #ffffff;
+ border: solid black 4px;
+ border-radius: 10px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 1em;
+ padding: 5px;
+ 
+ }
+
+#body h1 {
+ font : bold small-caps 30px/30px Garamond, "Times New Roman", Times, serif;
+ color : #060;
+ }
+
+#body h2, #body h2 a, #body h2 a:hover, #body h2 a:visited {
+ color : #060;
+ font : bold small-caps 24px/20px Garamond, "Times New Roman", Times, serif;
+ }
+
+#body h2 a:hover, #body h2 a:visited {
+ text-decoration:underline;
+ }
+ 
+#body h3 {
+ font : bold 16px/14px Geneva, Arial, Helvetica, sans-serif;
+ color : #f90;
+ margin-bottom: 0px;
+ }
+
+#body h3 a, #body h3 a:hover, #body h3 a:visited {
+ color : #f90;
+ text-decoration:underline;
+ }
+
+#body h4 {
+ font : bold 12px/12px Geneva, Arial, Helvetica, sans-serif;
+ color : #060;
+ margin-top:-10px;
+ }
+
+#body p, #body ul, #body ul li {
+ font : 14px/16px Geneva, Arial, Helvetica, sans-serif;
+ }
+
+#body .portfolioImg {
+ float: left;
+ border: none;
+ margin-right: 15px;
+ }
+
+#bLeft {
+ width: 435px;
+}
+
+#menu {
+ float: right;
+ width: 250px;
+ margin-left: 1em;
+ }
+
+#menu h1 {
+ text-align:center;
+ font : bold small-caps 16px/32px Geneva, Arial, Helvetica, sans-serif;
+ color : #060;
+ margin-bottom: 0;
+ }
+
+#menu ul {
+ margin: 0 5px;
+ padding: 0px 2px 10px 2px;
+ }
+
+#menu ul li {
+ margin : 0px;
+ list-style-type: none;
+ }
+
+#menu .cat_count {
+ color: #ccc;
+ } 
+
+nav ul{
+    background: #e3e3e3;
+    border-radius: 10px;
+    box-shadow: #ccc 5px 5px 5px;
+    list-style: none;
+    width: 240px;
+}
+
+.title{
+    border-top: 1px solid #000;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.title:first-child{
+    border-top: none;
+}
+
+.title a span{
+    color: #800000;
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+.title ul li span
+{
+    background: #fff;
+    color: #111;
+    display: block;
+    font-size: 12px;
+    height: 0px;
+    line-height: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+.title ul li span:hover
+{
+    background: #eee;
+    color: #000;
+}
+
+:target + ul li span
+{
+    height: 30px;
+}
+
+.left{
+    float:left;
+}
+
+#description{
+    padding-top: 20px;
+}
+
+.bottom{
+    border-top: none;
+    height: 20px;
+}
+
+
+#footer {
+    clear:both;
+    text-align:center;
+}

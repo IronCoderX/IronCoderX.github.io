@@ -5,7 +5,7 @@ html, body {
  }
 
 body {
- background: #cccccc;
+ background: #000000;
  }
 
 a {
@@ -21,6 +21,19 @@ a:visited, a:hover {
 #body {
  width: 700px;
  height: 390px;
+ background: #ffffff;
+ border: solid #cccccc 4px;
+ border-radius: 10px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 1em;
+ padding: 5px;
+    position:relative;
+ 
+ }
+
+#resumeBody {
+ width: 700px;
  background: #ffffff;
  border: solid black 4px;
  border-radius: 10px;
@@ -77,7 +90,6 @@ a:visited, a:hover {
 }
 
 #menu {
- float: right;
  width: 250px;
  margin-left: 1em;
  }
@@ -98,10 +110,6 @@ a:visited, a:hover {
  margin : 0px;
  list-style-type: none;
  }
-
-#menu .cat_count {
- color: #ccc;
- } 
 
 nav ul{
     background: #e3e3e3;
@@ -156,6 +164,10 @@ nav ul{
     float:left;
 }
 
+.right{
+    float:right;
+}
+
 #description{
     padding-top: 20px;
 }
@@ -165,8 +177,8 @@ nav ul{
     height: 20px;
 }
 
-
 #footer {
     clear:both;
     text-align:center;
+    color: #ffffff;
 }

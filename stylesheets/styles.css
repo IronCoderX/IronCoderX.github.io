@@ -28,7 +28,7 @@ a:visited, a:hover {
  margin-right: auto;
  margin-top: 1em;
  padding: 5px;
-    position:relative;
+ position:relative;
  
  }
 
@@ -181,4 +181,8 @@ nav ul{
     clear:both;
     text-align:center;
     color: #ffffff;
+}
+
+#education {
+    display: inline;
 }

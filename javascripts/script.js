@@ -1,3 +1,39 @@
+$(function() {
+    $('#education').hide();
+    $('#experience').hide();
+    $('#cs_skills').hide();
+    $('#honors').hide();
+ 
+    $('#educationHeader').click(function(){
+        $('#education').show();
+        $('#experience').hide();
+        $('#cs_skills').hide();
+        $('#honors').hide();
+    });
+ 
+    $('#experienceHeader').click(function(){
+        $('#education').hide();
+        $('#experience').show();
+        $('#cs_skills').hide();
+        $('#honors').hide();
+    });
+     
+    $('#csHeader').click(function(){
+        $('#education').hide();
+        $('#experience').hide();
+        $('#cs_skills').show();
+        $('#honors').hide();
+    });
+     
+    $('#honorsHeader').click(function(){
+        $('#education').hide();
+        $('#experience').hide();
+        $('#cs_skills').hide();
+        $('#honors').show();
+    });
+    
+});
+
 var portfolioImages = new Array();
 portfolioImages[0] = "3 Column Layout";
 portfolioImages[1] = "2 Column Layout";

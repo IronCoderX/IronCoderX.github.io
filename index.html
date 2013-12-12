@@ -1,11 +1,13 @@
 <!DOCTYPE html PUBLIC>
  <html>
-     
      <head>
          <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
          <title>ReynMaker Ent. Portfolio</title>
          <link type="text/css" href="./stylesheets/styles.css" rel="stylesheet" />
+
+         <script src="jquery_1_10_2.js"></script>
          <script src="./javascripts/script.js"></script>
+         
      </head>
      
      <body>
@@ -13,67 +15,106 @@
          
          </div>
      
-     <div id="body">
-         <div id="menu" class="right">
-             <nav>
+        <div id="resumeBody">
+            <div id="menu" class="right">
+                <nav>
+                    <ul>
+                        <li class="title"><a id="1" href="#1"><span><h1>Navigation</h1></span></a>
+                            <ul>
+                                <li><span id="#"><a href="./index.html">Resume</a></span></li>
+                                <li><span id="#"><a href="./portfolio.html">Portfolio</a></span></li>
+                                <li><span id="#"><a href="./contact.html">Contact</a></span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="bLeft">
+                <h1>Michael Reynolds Resume</h1>
+                <p><b>PROFILE</b><br>
+Resourceful and innovative individual with experience in the areas of research, technical support, and customer experience.  Hands-on experience in corporate training, presentation skills, and web development. Adaptable, hard working person who is an innovative problem solver.  Recognized as a top performer in technical support, customer service, and training.</p>
+
+                <span id="educationHeader"><b>EDUCATION</b> <em>[expand]</em></span><br>
+               
+                    <div id="education">
+                <span class="left">University of Alabama in Huntsville, Huntsville, AL</span><span class="right">May 2015</span><br>
+                    Bachelor of Science in Computer Science<br>
+                    Overall GPA: 3.25<br>
+
+                    <p><span class="left">Columbia State Community College, Columbia, TN</span><span class="right">May 2014</span><br>
+Associate of Science in Physics<br>
+Overall GPA: 4.0</p>
+                    </div>
+					
+                <span id="experienceHeader"><b>EXPERIENCE</b> <em>[expand]</em></span><br>
+                <div id="experience">
+                <span class="left">Wal-Mart, Lewisburg, TN</span><span class="right">November 2013-current</span><br>
+                <em>Courtesy Associate</em><br>
+                    <ul>
+                        <li>Retrieved and maintained carts.</li>
+                        <li>Assisted customer with load carry outs.</li>
+                        <li>Clean and maintain front end of store.</li>
+                    </ul>
+                <span class="left">Vanderbilt-VINSE</span><span class="right">May 2013-August 2013</span><br>
+                Nashville, TN<br>
+                <em>TNSCoRE REU Fellow</em>
                 <ul>
-                    <li class="title"><h1>Categories</h1></li>
-                    <li class="title"><a id="1" href="#1"><span>HTML5 Layouts [3]</span></a>
-                        <ul>
-                            <li><span id="#" onclick="replaceExample(0)">3 Column</span></li>
-                            <li><span id="#" onclick="replaceExample(1)">2 Column</span></li>
-                            <li><span id="#" onclick="replaceExample(2)">Block Layout</span></li>
-                        </ul>
-                    </li>
-                    <li class="title"><a id="2" href="#2"><span>Photo Slideshows [3]</span></a>
-                        <ul>
-                            <li><span id="#" onclick="replaceExample(3)">Auto Updating</span></li>
-                            <li><span id="#" onclick="replaceExample(4)">Click Through with PopUp</span></li>
-                            <li><span id="#" onclick="replaceExample(5)">Scrolling Vertical</span></li>
-                        </ul>
-                    </li>
-                    <li class="title"><a id="3" href="#3"><span>Other JScript [3]</span></a>
-                        <ul>
-                            <li><span id="#" onclick="replaceExample(6)">Calculator</span></li>
-                            <li><span id="#" onclick="replaceExample(7)">Simple Game</span></li>
-                            <li><span id="#" onclick="replaceExample(8)">Clock/Timer</span></li>
-                        </ul>
-                    </li>
-                    <li class="title"><a id="4" href="#4"><span>Web Forms [3]</span></a>
-                        <ul>
-                            <li><span id="#" onclick="replaceExample(9)">Contact Form</span></li>
-                            <li><span id="#" onclick="replaceExample(10)">Data Entry Form</span></li>
-                            <li><span id="#" onclick="replaceExample(11)">Test Form</span></li>
-                        </ul>
-                    </li>
-                    <li class="title"><a id="5" href="#5"><span>Navigation</span></a>
-                        <ul>
-                            <li><span id="#"><a href="./resume.html">Resume</a></span></li>
-                            <li><span id="#"><a href="./index.html">Portfolio</a></span></li>
-                            <li><span id="#"><a href="./contact.html">Contact</a></span></li>
-                        </ul>
-                    </li>
+                    <li>Researched plasmon-exciton interactions in Au/MoS2 hybrid nano-systems.</li>
+                    <li>Prepared samples and collected data using Witec microscope and spectrophotometer.</li>
+                    <li>Analyzed data using MatLab and C programming.</li>
+                    <li>Presented weekly project updates.</li>
+                    <li>Presented end of summer poster presentation-Best Poster Presentation Award.</li>
                 </ul>
-            </nav>
-        </div>
-         <div id="bLeft">
-            <h1>ReynMaker's Portfolio</h1>
-             
-             <div class="left">
-            <h3><a href="#">3 Column Layout</a></h3>
-            
-                <a href="#"><img id="portfolio_thumbnail" src="" width="150" height="150" alt="Descriptive Alt Text" style="background-color: #f90;" class="portfolioImg" /></a>
-                 <h4>Category Name</h4>
-                 </div>
-                   
-     <div id="description">
-         <p>Describe the example in this section. As this is your first example, it should be of your <em>absolute best work</em>. Your description could be anything that clarifies the picture. I like to put only 1 or 2 sentences, but make sure you have enough information about the image so that your audience learns enough.</p>
+                <span class="left">Columbia State Community College</span><span class="right">January 2013-May 2013</span><br>
+                Columbia, TN<br>
+                <em>Student Tutor</em>
+                <ul>
+                    <li>Coached comprehension and retention of materials in Physics, Physical Science, Mathematics (entry level through Differential Equations and Linear Algebra), Writing, and other subjects as needed.</li>
+                    <li>Proofread and edited papers, suggesting cohesion revisions as well as content improvements.</li>
+                    <li>Improved test scores for over 80% of clients/students.</li>
+                </ul>
+                <span class="left">Apple, Inc.</span><span class="right">October 2010-June 2012</span><br>
+                Lewisburg, TN<br>
+                <em>Team Lead in Training</em>
+                <ul>
+                    <li>Innovated team metric tracking by implementing multi-tier data sharing platform and spreadsheet system.
+                    <li>Led team of 20 technical support agents to an average customer satisfaction rating of 92%.</li>
+                    <li>Developed and coached to action plans for performance improvement in team and individual call statistics.</li>
+                    <li>Published weekly team blogs, updates, and motivational/informational discussions.</li>
+                    <li>Reported weekly on team performance in management meetings.</li>
+                </ul>
+                Technical Support Specialist, iOS
+                <ul>
+                    <li>Consistently led team in customer satisfaction and call handling metrics.</li>
+                    <li>Selected as core training mentor for incoming technical support agents.</li>
+                    <li>Selected for specialized Subject Matter Expert team.</li>
+                </ul>
+                    </div>
+
+                <span id="csHeader"><b>COMPUTER SKILLS</b> <em>[expand]</em></span><br>
+                <div id="cs_skills" hidden="hidden">
+                <ul>
+                    <li>HTML5, CSS, JavaScript, JQuery, C#, C++, Python, and other languages</li>
+                    <li>Front End Web Development and User Experience Design</li>
+                    <li>Windows XP-Windows 8, Linux OS and Mac OS X</li>
+                    <li>Adobe Creative Suite</li>
+                </ul>
+                    </div>
+
+                <span id="honorsHeader"><b>HONORS AND AWARDS</b> <em>[expand]</em></span><br>
+                <div id="honors" hidden="hidden">
+                <span class="left">William T. and Joanne Brooks Scholarship</span><span class="right">August 2013</span><br>
+                <span class="left">UAH Transfer Merit Scholarship</span><span class="right">August 2013</span><br>
+                <span class="left">TNSCoRE-VINSE REU Poster Presentation</span><span class="right">August 2013</span><br>
+                <span class="left">CSCC Dean's List</span><span class="right">February and June 2013</span><br>
+                <span class="left">Who's Who Among American Junior Colleges</span><span class="right">May 2013</span><br>
+                <span class="left">CSCC Award of Excellence-Physics</span><span class="right">April 2013</span><br>
+                </div>         
+         </div>
      </div>
-     </div>
-     </div>
-         
+     
          <div id="footer">
-         <p>&#169 ReynMaker Enterprises 2013. All images and designs used with permission of the owners.</p>
+             <p>&#169 ReynMaker Enterprises 2013. All images and designs used with permission of the owners.</p>
          </div>
      </body>
  </html> 

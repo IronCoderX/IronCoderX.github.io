@@ -48,6 +48,20 @@ portfolioImages[9] = "Contact Form";
 portfolioImages[10] = "Data Entry Form";
 portfolioImages[11] = "Test Form";
 
+var portfolioImgSrc = new Array();
+portfolioImgSrc[0] = "";
+portfolioImgSrc[1] = "";
+portfolioImgSrc[2] = "";
+portfolioImgSrc[3] = "";
+portfolioImgSrc[4] = "";
+portfolioImgSrc[5] = "";
+portfolioImgSrc[6] = "../images/CalcCapture.png";
+portfolioImgSrc[7] = "";
+portfolioImgSrc[8] = "";
+portfolioImgSrc[9] = "";
+portfolioImgSrc[10] = "";
+portfolioImgSrc[11] = "";
+
 var portfolioDescriptions = new Array();
 portfolioDescriptions[0] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consectetur vehicula ligula, et pellentesque nunc blandit eleifend. Ut aliquet purus quis facilisis hendrerit. Aliquam faucibus, augue vel adipiscing pellentesque, dui dui pellentesque libero, vel iaculis nulla massa vestibulum libero. Maecenas ultricies bibendum purus nec aliquet. Praesent vitae auctor risus. Aenean sit amet ornare velit, quis bibendum diam. Mauris sagittis tempus luctus.";
 portfolioDescriptions[1] = "Duis auctor metus ut iaculis dapibus. Vivamus varius sapien quis enim gravida congue. Sed ornare suscipit neque eu interdum. Integer faucibus eros at gravida varius. Etiam posuere odio eget arcu hendrerit facilisis. Sed et condimentum justo, sed ultrices dolor. Mauris aliquet lacinia eros eu lobortis. Vivamus faucibus bibendum vulputate. Vestibulum eu varius lorem.";
@@ -63,7 +77,7 @@ portfolioDescriptions[10] = "Maecenas faucibus sapien quis felis volutpat commod
 portfolioDescriptions[11] = "Integer feugiat, nulla sit amet faucibus consequat, metus eros scelerisque ligula, a vehicula mauris neque in est. Praesent rhoncus tempus felis. Fusce vestibulum urna quis ipsum aliquam pellentesque.";
 
 var categories = new Array();
-categories[0] = "HTML5 Layouts";
+categories[0] = "HTML5/CSS Layouts";
 categories[1] = "Photo Slideshows";
 categories[2] = "Other JScript";
 categories[3] = "Web Forms";
@@ -73,6 +87,7 @@ function replaceExample(placement)
     document.getElementById("description").innerHTML = portfolioDescriptions[placement];
     document.getElementById("portfolio_thumbnail").alt = portfolioImages[placement];
     document.getElementById("linkLabel").innerHTML = portfolioImages[placement];
+    document.getElementById("portfolio_thumbnail").src = "";
     
     if(placement == 0||placement == 1||placement==2){
         document.getElementById("category").innerHTML = categories[0];

@@ -31,15 +31,30 @@
             </div>
             <div id="cLeft">
                 <p>Please feel free to contact me with any questions or for a quote for any website or webwork.</p>
-                <div class="left">
-                    <form>             
-                        <label for="cName">Name:</label><input type="text" name="cName"/><br/>
-                        <label for="cPhone">Phone:</label><input type="tel" name="cPhone"/><br/>
-                        <label for="cEmail">Email:</label><input type="email" name="cEmail"/><br/>
-                        <label for="cMessage">Notes:</label><textarea rows="6" cols="50" name="cMessage"></textarea><br/>
-                        <span  class="form-field-no-caption"><input type="submit" value="submit"/></span>
-                    </form>
-                </div>
+                <div id="contact_form" class="left">
+                      <form name="contact" action="/bin/process.php" method="post">
+                          <label for="name" id="name_label">Name: </label>
+                          <input type="text" name="name" id="name" size="30" value="" class="text-input" />
+                          <label class="error" for="name" id="name_error">*</label>
+                          
+                          <label for="email" id="email_label">Return Email: </label>
+                          <input type="text" name="email" id="email" size="30" value="" class="text-input" />
+                          <label class="error" for="email" id="email_error">*</label>
+                          
+                          <label for="phone" id="phone_label">Return Phone: </label>
+                          <input type="text" name="phone" id="phone" size="30" value="" class="text-input" />
+                          <label class="error" for="phone" id="phone_error">*</label>
+                            
+                          <label for="message" id="message_label">Message: </label>
+                          <textarea name="message" rows="6" cols="34">Please type your message here. Include any and all relevant information.</textarea><br />
+                          <label>*What is 2+2? (Anti-spam)</label>
+<input name="human" placeholder="Type Here"><br />
+                          <span  class="form-field-no-caption"><input type="submit" name="submit" class="button" id="submit_btn" value="Send" /></span><br />
+                          <label class="error" for="name" id="name_error">This field is required.</label>
+                          <label class="error" for="email" id="email_error">This field is required.</label>
+                          <label class="error" for="phone" id="phone_error">This field is required.</label>
+                      </form>
+                  </div>
             </div>         
         </div>
      

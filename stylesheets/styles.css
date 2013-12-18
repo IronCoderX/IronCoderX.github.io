@@ -204,3 +204,13 @@ input {
     float: left;
     margin-left: 150px;
 }
+
+.error {
+    display: inline-block;
+    color: red;
+    margin-top: -25px;
+    font-size: 10pt;
+    text-align:left;
+    float: right;
+    float: clear;
+}

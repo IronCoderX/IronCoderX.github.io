@@ -55,7 +55,7 @@ portfolioImgSrc[2] = "";
 portfolioImgSrc[3] = "";
 portfolioImgSrc[4] = "";
 portfolioImgSrc[5] = "";
-portfolioImgSrc[6] = "../images/CalcCapture.png";
+portfolioImgSrc[6] = "./images/CalcCapture.png";
 portfolioImgSrc[7] = "";
 portfolioImgSrc[8] = "";
 portfolioImgSrc[9] = "";
@@ -69,7 +69,7 @@ portfolioDescriptions[2] = "Fusce vel imperdiet metus. Vestibulum tristique feli
 portfolioDescriptions[3] = "Donec eget libero auctor, venenatis odio et, iaculis lectus. Donec sed eleifend erat. Vivamus tincidunt odio quis nibh egestas, eget placerat dui feugiat. Phasellus convallis justo egestas egestas tincidunt. Fusce venenatis gravida est, nec cursus diam vulputate ut. Sed tempor tortor in consequat bibendum. Curabitur mollis mi vel felis mollis pretium.";
 portfolioDescriptions[4] = "Duis consectetur leo ut sapien tempor consequat. Ut nec lacus vitae orci interdum interdum. Aliquam libero velit, fringilla in vehicula vitae, iaculis ut tellus. Ut sit amet lobortis tortor. Suspendisse nec eros lobortis, mattis leo a, sagittis orci. Maecenas vitae mattis nisi, ac mattis est. Morbi ut libero eleifend, sagittis felis non, gravida lacus. In sit amet ante quis nisl rutrum ornare.";
 portfolioDescriptions[5] = "Pellentesque vitae tincidunt dui. Curabitur vel velit dolor. Vestibulum sagittis nisl quis diam convallis, id accumsan leo dapibus. Sed nec elit sapien. Praesent ullamcorper erat quis erat bibendum, et suscipit dui consequat. Nulla commodo nisi ultricies laoreet cursus.";
-portfolioDescriptions[6] = "Duis eget augue iaculis, ultrices est vel, pellentesque metus. Donec vel enim lacus. Sed in ipsum massa.";
+portfolioDescriptions[6] = "A simple calculator site using JavaScript and HTML5's built in Math functionality. The calculator is expandable to a scientific calculator by CSS replacement scripts.";
 portfolioDescriptions[7] = "Quisque sit amet lacus ipsum. Donec vel semper ante, id dictum enim. Mauris at erat vitae sapien sagittis ultrices. Sed eget vehicula quam. Nulla eleifend ornare scelerisque. Vivamus non dapibus dui.";
 portfolioDescriptions[8] = "Quisque eget laoreet nisl. Vivamus condimentum faucibus est quis posuere. Donec in justo ullamcorper, condimentum arcu vel, scelerisque velit.";
 portfolioDescriptions[9] = "Aliquam mattis, dolor at vulputate posuere, metus augue laoreet risus, a blandit leo mauris et metus. Pellentesque eu hendrerit risus. Quisque ut fermentum felis. Nulla sagittis nisl augue, eget elementum ligula pretium quis.";
@@ -87,7 +87,7 @@ function replaceExample(placement)
     document.getElementById("description").innerHTML = portfolioDescriptions[placement];
     document.getElementById("portfolio_thumbnail").alt = portfolioImages[placement];
     document.getElementById("linkLabel").innerHTML = portfolioImages[placement];
-    document.getElementById("portfolio_thumbnail").src = "";
+    document.getElementById("portfolio_thumbnail").src = portfolioImgSrc[placement];
     
     if(placement == 0||placement == 1||placement==2){
         document.getElementById("category").innerHTML = categories[0];

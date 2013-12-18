@@ -186,3 +186,21 @@ nav ul{
 #education {
     display: inline;
 }
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+}
+
+input {
+  display: inline-block;
+  float: left;
+}
+
+.form-field-no-caption {
+    float: left;
+    margin-left: 150px;
+}

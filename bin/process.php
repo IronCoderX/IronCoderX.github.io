@@ -3,7 +3,7 @@
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $message = $_POST['message'];
-    $from = 'From: TangledDemo'; 
+    $from = 'From: ContactForm'; 
     $to = 'mdr0014@uah.edu'; 
     $subject = 'Hello';
     $human = $_POST['human'];
